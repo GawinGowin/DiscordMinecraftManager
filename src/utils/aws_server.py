@@ -6,8 +6,7 @@ import os
 import boto3
 from botocore.exceptions import ClientError
 
-basedir = os.environ["PWD"]
-file = os.path.join(basedir, ".devcontainer", "config.json")
+file = os.path.join(".devcontainer", "config.json")
 with open(file) as f:
     aws_config = json.load(f)["aws"]
 

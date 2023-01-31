@@ -7,8 +7,7 @@ from discord.ext import commands
 
 from utils.aws_server import instances_switch
 
-basedir = os.environ["PWD"]
-file = os.path.join(basedir, ".devcontainer", "config.json")
+file = os.path.join(".devcontainer", "config.json")
 with open(file) as f:
     config = json.load(f)["discord"]
 

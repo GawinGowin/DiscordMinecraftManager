@@ -5,8 +5,7 @@ import os
 import discord
 from discord.ext import commands
 
-basedir = os.environ["PWD"]
-file = os.path.join(basedir, ".devcontainer", "config.json")
+file = os.path.join(".devcontainer", "config.json")
 with open(file) as f:
     config = json.load(f)["discord"]
 
