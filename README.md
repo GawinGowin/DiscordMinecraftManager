@@ -1,0 +1,6 @@
+# DiscordMinecraftManager
+EC2インスタンス上に実装したMinecraftServerのDiscordBotを用いた起動/停止アプリケーション
+
+## 前提
+- Discordを介した基本身内でのMinecraftのマルチプレイ環境
+- EC2インスタンスの起動/停止時に自動的にMinecraftServerが起動する設定
