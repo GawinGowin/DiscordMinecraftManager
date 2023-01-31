@@ -5,8 +5,8 @@ EC2インスタンス上に実装したMinecraftServerのDiscordBotを用いた�
 - Discordを介した基本身内でのMinecraftのマルチプレイ環境
 - EC2インスタンスの起動/停止時に自動的にMinecraftServerが起動する設定
 
-<hr>
-## コンフィグファイルの説明>>[config.json](/.devcontainer/config.json)
+## コンフィグファイルの説明
+-> [config.json](/.devcontainer/config.json)
 
 **Discord関係**
 >- bot_token : DiscordのBotアカウントのトークン
