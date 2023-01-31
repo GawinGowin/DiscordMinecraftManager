@@ -5,7 +5,19 @@ EC2インスタンス上に実装したMinecraftServerのDiscordBotを用いた�
 - Discordを介した基本身内でのMinecraftのマルチプレイ環境
 - EC2インスタンスの起動/停止時に自動的にMinecraftServerが起動する設定
 
-![SS](https://user-images.githubusercontent.com/101625248/215903524-52c03bd8-50ba-454e-8c4b-aaacbf2b3f34.png)
+![SS](https://user-images.githubusercontent.com/101625248/215903633-c879ee19-b888-4804-bbdd-6efc6a48a7ff.png)
+
+## コマンド
+Discordのスラッシュコマンドで制御
+
+サーバーの起動
+```bash
+/server on
+```
+サーバーの停止
+```bash
+/server off
+```
 
 ## コンフィグファイルの説明
 -> [config.json](/.devcontainer/config.json)
